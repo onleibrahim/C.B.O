@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(climate.jpeg);
+    background-repeat: no-repeat;
+    background-size: 2200px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: capitalize;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    text-transform: capitalize;
+    transition: 0.4s;
+    padding: 8px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+    color: #333;
+  }
+  nav ul li a:hover{
+    background-color: #f9004f;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    color:#f9004f;
+    font-weight: bold;
+  }
+  
+  .project,
+  .research-item,
+  .event {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3,
+  .research-item h3,
+  .event h3 {
+    margin-top: 0;
+  }
+  
+  .project p,
+  .research-item p,
+  .event p {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .button:hover{
+    background-color: #f9004f;
+
+  }
+  
